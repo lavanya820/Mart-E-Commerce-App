@@ -7,8 +7,7 @@ header{
     display: grid;
     grid-template-columns: 65% 35%;
     background-color: white;
-    box-shadow: 10px 5px 10px rgb(127, 125, 125);
-    /* margin-left: 0px; */
+    box-shadow: 10px 5px 12px rgb(106, 101, 101);
 }
 .head{
     padding: 5px 0px 5px 50px;
