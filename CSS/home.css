@@ -232,7 +232,7 @@ margin-left: 900px;
     margin-top: -26px;
     margin-left: -10px;
 }
-.plus:hover {
+button:hover {
     background-color: #0d0d6e;
     color: white;
 }
