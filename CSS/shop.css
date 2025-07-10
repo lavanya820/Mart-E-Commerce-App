@@ -1,0 +1,233 @@
+body{
+    overflow-x: hidden;
+}
+header{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);    /* position: fixed; */
+    /* z-index: 20px; */
+}
+.head{
+    padding: 20px 0px 10px 50px;
+}
+nav a {
+    text-decoration: none;
+    padding: 4%;
+    margin-top: 25px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+}
+ nav i {
+    margin-top: 25px;
+    padding: 1%;
+    text-align: center;
+    align-content: center;
+}
+nav p{
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    color: white;
+    background-color: #0d0d6e;
+    border: 1px solid #0d0d6e;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 312px;
+}
+/* product */
+.heroo {
+  position: relative;
+  height: 43vh;
+  background: url('1799.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex; 
+  text-align: center;             
+  justify-content: center;      
+  align-items: center;          
+  margin-top: -30px; 
+  background-image:url(../images/table.jpg);
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  padding-top: 70px;
+  margin-bottom: 20px ;
+  justify-content: center;
+  margin-top: -15px;       
+}
+.heroo::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(28, 26, 26, 0.5); 
+  z-index: 1;                    
+}
+.heroo h3 {
+  color: #fff;
+  font-size: 35px;               
+  z-index: 2;                    
+  margin-top: -20px;
+}
+
+/* dropdown and search bar */
+.dropdown{
+    width: 250px !important;
+    padding: 10px 0px 0px 130px;
+}
+.dropdown-toggle::after{
+  content: ' ⌄' !important;
+  border: none !important;
+  color: white(246, 240, 240) !important;
+}
+.btn-primary{
+    background-color: #0d3c72 !important;
+}
+.dropdown-item:hover{
+    background-color:  #0d3c72 !important;
+    color: white !important; 
+}
+.dropdown-menu{
+    width: 300px !important;
+    margin-left: 0px !important;
+}
+/* searchbar */
+.search-bar {
+    border-radius: 999px;
+    padding: 8px 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    align-items: center;
+    max-width: 850px;
+    margin: -40px 0px 0px 500px;
+    background-color: #f1f1f1;
+    }
+.search-bar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    flex-grow: 1;
+    font-size: 16px;
+    }
+.search-icon{
+    color: rgb(106, 98, 98);
+    margin-top: -33px;
+    margin-left: 1310px;
+    margin-bottom: 20px;
+}
+/* Product details */
+.one{
+    width: 250px;
+    height: 220px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+.shopd{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 280px;
+    gap: 20px;
+}
+.shope{
+    width: 300px;
+    height: 450px;
+    border-radius: 3%;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    align-content: center;
+}
+.e{
+    margin-left: 260px;
+    margin-top:-35px;
+    font-size: 28px;
+    color: white;
+}
+.f{
+    margin-left: 260px;
+    margin-top:-10px;
+    font-size: 28px;
+    color: white;
+}
+.shope:hover .f{
+    color: black;
+}
+.shope:hover .e{
+    color: black;
+}
+.shope p{
+    margin-left: 20px;
+}
+.shope i{
+    color:#f8b400;
+    margin-left: 20px;
+    margin-right: -20px;
+}
+.shopf{
+    width: 300px;
+    height: 450px;
+    border: 1px solid whitesmoke;
+    border-radius: 3%;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    margin-left: 160px;
+}
+.shopf:hover .e{
+    color: black;
+}
+.shopf p{
+    margin-left: 20px;
+}
+.shopf i{
+    color:#f8b400;
+    margin-left: 20px;
+    margin-right: -20px;
+}
+.but2{
+    display: flex;
+}
+.but2 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.but2 button{
+    color: rgb(12, 12, 65);
+    text-align: center;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 3px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border:1px solid rgb(234, 224, 224) ;
+    border-radius: 50%;
+}
+.but2 span{
+    position: absolute;
+    font-size: 30px;
+    margin-top: -26px;
+    margin-left: -10px;
+}
+button:hover {
+    background-color: #0d0d6e;
+    color: white;
+}
+
+/* footer */
+.footer{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #062d55;
+    color: white;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    padding-left: 60px;
+}
+.footer p{
+    margin-left: 0%;
+    color:rgba(209, 209, 209, 0.8);
+    font-size: 17px;
+}
