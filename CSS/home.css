@@ -117,6 +117,10 @@ margin-left: 900px;
     background-color: white;
     padding: 4%;
 }
+.carousel-control-prev:hover{
+    
+/* background-color:  rgb(245, 248, 248); */
+}
 /* big  discount */
 .shops{
     margin-top: 70px;
@@ -232,7 +236,7 @@ margin-left: 900px;
     margin-top: -26px;
     margin-left: -10px;
 }
-button:hover {
+.plus:hover {
     background-color: #0d0d6e;
     color: white;
 }
