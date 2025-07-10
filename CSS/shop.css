@@ -5,8 +5,7 @@ header{
     display: grid;
     grid-template-columns: 65% 35%;
     background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);    /* position: fixed; */
-    /* z-index: 20px; */
+    box-shadow: 0 2px 5px rgba(42, 39, 39, 0.1);  
 }
 .head{
     padding: 20px 0px 10px 50px;
