@@ -5,7 +5,7 @@ header{
     display: grid;
     grid-template-columns: 65% 35%;
     background-color: white;
-    box-shadow: 0 2px 5px rgba(42, 39, 39, 0.1);  
+    box-shadow: 0 2px 5px rgba(56, 54, 54, 0.1);  
 }
 .head{
     padding: 20px 0px 10px 50px;
@@ -180,7 +180,7 @@ nav p{
     margin-left: 20px;
 }
 .shopf i{
-    color:#f8b400;
+    color:#f6b606;
     margin-left: 20px;
     margin-right: -20px;
 }

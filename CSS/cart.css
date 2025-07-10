@@ -8,11 +8,11 @@ header{
     grid-template-columns: 65% 35%;
     background-color: white;
     box-shadow: 10px 5px 10px rgb(127, 125, 125);
-    margin-left: 0px;
+    /* margin-left: 0px; */
 }
 .head{
     padding: 5px 0px 5px 50px;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 30px;
 }
 nav a {
