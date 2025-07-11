@@ -41,9 +41,6 @@ nav p{
     padding: 1% 150% 1% 15%;
 }
 /* slide show */
-.carousel{
-    margin-top: 0px;
-}
 .carousel-item h1,p{
 margin-top: 190px;
 margin-left: 200px;
