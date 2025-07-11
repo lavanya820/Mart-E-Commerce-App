@@ -10,7 +10,7 @@ header{
 nav a {
     text-decoration: none;
     padding: 4%;
-    margin-top: 35px;
+    margin-top: 45px;
     color: black;
     font-size: 22px;
     font-weight: bold;
@@ -18,7 +18,7 @@ nav a {
     align-content: center;
 }
  nav i {
-    margin-top: 35px;
+    margin-top: 45px;
     padding: 1%;
     text-align: center;
     align-content: center;
