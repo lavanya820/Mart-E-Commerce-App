@@ -1,21 +1,22 @@
 body{
     overflow-x: hidden;
 }
-header{
-    display: grid;
-    grid-template-columns: 65% 35%;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(56, 54, 54, 0.1);  
+ header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 10px 5px 12px rgb(106, 101, 101);
+  display: grid;
+  grid-template-columns: 65% 35%;
 }
-.head{
-    padding: 20px 0px 20px 50px;
-     font-size: 32px;
-    font-weight: 50px;
-}
+
 nav a {
     text-decoration: none;
     padding: 4%;
-    margin-top: 25px;
+    margin-top: 45px;
     color: black;
     font-size: 22px;
     font-weight: bold;
@@ -23,7 +24,7 @@ nav a {
     align-content: center;
 }
  nav i {
-    margin-top: 25px;
+    margin-top: 45px;
     padding: 1%;
     text-align: center;
     align-content: center;
@@ -38,11 +39,15 @@ nav p{
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    margin-top: -32px;
+    margin-top: -30px;
     margin-left: 340px;
+}
+.a {
+    padding: 1% 150% 1% 15%;
 }
 /* product */
 .heroo {
+ /* padding-top: 100px; */
   position: relative;
   height: 43vh;
   background: url('1799.jpg') no-repeat center center;
@@ -58,7 +63,7 @@ nav p{
   padding-top: 70px;
   margin-bottom: 20px ;
   justify-content: center;
-  margin-top: -15px;       
+  margin-top: 60px;       
 }
 .heroo::before {
   content: "";

@@ -1,13 +1,18 @@
 body{
     overflow-x: hidden;
-    /* background-color: #f1f4f9; */
 }
-header{
-    display: grid;
-    grid-template-columns: 65% 35%;
-    background-color: white;
-    box-shadow: 10px 5px 10px rgb(127, 125, 125);
+ header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 10px 5px 12px rgb(106, 101, 101);
+  display: grid;
+  grid-template-columns: 65% 35%;
 }
+
 nav a {
     text-decoration: none;
     padding: 4%;

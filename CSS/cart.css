@@ -3,29 +3,30 @@ body{
     overflow-x: hidden;
     background: #c4cedd;
 }
-header{
-    display: grid;
-    grid-template-columns: 65% 35%;
-    background-color: white;
-    box-shadow: 10px 5px 12px rgb(106, 101, 101);
+ header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 10px 5px 12px rgb(106, 101, 101);
+  display: grid;
+  grid-template-columns: 65% 35%;
 }
-.head{
-    padding: 1px 0px 0px 50px;
-    font-size: 26px;
-    font-weight: 30px;
-}
+
 nav a {
     text-decoration: none;
     padding: 4%;
-    margin-top: 30px;
+    margin-top: 45px;
     color: black;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
     text-align: center;
     align-content: center;
 }
  nav i {
-    margin-top: 30px;
+    margin-top: 45px;
     padding: 1%;
     text-align: center;
     align-content: center;
@@ -40,12 +41,16 @@ nav p{
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    margin-top: -33px;
-    margin-left: 347px;
+    margin-top: -30px;
+    margin-left: 340px;
+}
+.a {
+    padding: 1% 150% 1% 15%;
 }
 /* cart */
 .container-cart{
   display: flex;
+margin-top: 100px;
 }
 .container{
   margin-top: 50px;
