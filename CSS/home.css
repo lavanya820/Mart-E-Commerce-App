@@ -46,6 +46,9 @@ nav p{
     padding: 1% 150% 1% 15%;
 }
 /* slide show */
+#carouselExampleAutoplaying{
+    margin-top: 100px;
+}
 .carousel-item h1,p{
 margin-top: 190px;
 margin-left: 200px;
@@ -427,6 +430,6 @@ button:hover {
 }
 .footer p{
     margin-left: 0%;
-    color:gray;
+    color:rgba(209, 209, 209, 0.8);
     font-size: 20px;
 }
