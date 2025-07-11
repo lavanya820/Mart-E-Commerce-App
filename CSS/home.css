@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    background-color: #f1f4f9;
 }
 header{
     display: grid;
@@ -41,7 +42,8 @@ nav p{
 }
 /* slide show */
 .carousel{
-    margin-top: 8px;
+    margin-top: 0px;
+    /* background-color: #f1f4f9; */
 }
 .carousel-item h1,p{
 margin-top: 190px;
@@ -69,9 +71,9 @@ width: 400px;
 margin-top: -310px;
 margin-left: 900px;
 }
-.col{
-    background-color: rgb(245, 248, 248);
-}
+/* .col{
+    background-color: rgb(234, 253, 253);
+} */
 /* card */
 .cards-container{
     display: flex;
@@ -79,6 +81,7 @@ margin-left: 900px;
     margin-left: 50px;
     gap: 10px;
     text-align: center;
+    background-color: white;
 }
 .card1{
     align-content: center;
@@ -120,7 +123,7 @@ margin-left: 900px;
 /* big  discount */
 .shops{
     margin-top: 70px;
-    background-color: rgb(245, 248, 248);
+    background-color: #f1f4f9;
     padding-bottom: 5px;
 } 
 .s{
@@ -239,6 +242,7 @@ button:hover {
 /* New arrivals */
 .shops-arrival{
     margin-bottom: 50px;
+    background-color: white;
 } 
 .shopa{
     display: flex;
@@ -324,7 +328,7 @@ button:hover {
 /* best sales */
 .Best-Sales{
     margin-top: 70px;
-    background-color: rgb(245, 248, 248);
+    background-color: #f1f4f9;
     padding-bottom: 5px;
     padding-bottom: 70px;
 } 
