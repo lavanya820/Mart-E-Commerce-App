@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    background-color: #f1f4f9;
+    /* background-color: #f1f4f9; */
 }
 header{
     display: grid;
@@ -43,7 +43,6 @@ nav p{
 /* slide show */
 .carousel{
     margin-top: 0px;
-    /* background-color: #f1f4f9; */
 }
 .carousel-item h1,p{
 margin-top: 190px;
@@ -71,14 +70,10 @@ width: 400px;
 margin-top: -310px;
 margin-left: 900px;
 }
-/* .col{
-    background-color: rgb(234, 253, 253);
-} */
 /* card */
 .cards-container{
     display: flex;
-    margin-top: 70px;
-    margin-left: 50px;
+    padding: 70px 10px 70px 60px;
     gap: 10px;
     text-align: center;
     background-color: white;
@@ -122,9 +117,8 @@ margin-left: 900px;
 }
 /* big  discount */
 .shops{
-    margin-top: 70px;
     background-color: #f1f4f9;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 } 
 .s{
     text-align: center;
@@ -241,7 +235,7 @@ button:hover {
 }
 /* New arrivals */
 .shops-arrival{
-    margin-bottom: 50px;
+    padding-bottom: 70px;
     background-color: white;
 } 
 .shopa{
@@ -327,9 +321,8 @@ button:hover {
 }
 /* best sales */
 .Best-Sales{
-    margin-top: 70px;
+    /* margin-top: 50px; */
     background-color: #f1f4f9;
-    padding-bottom: 5px;
     padding-bottom: 70px;
 } 
 .shopd{
